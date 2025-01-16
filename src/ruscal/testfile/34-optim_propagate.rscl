@@ -1,0 +1,12 @@
+var a: f64 = 1 + 2;
+print(a * 3);
+a = 40 + 2;
+print(a * 1);
+
+fn non_const() -> f64 {
+    90 + 6
+}
+
+a = non_const();
+
+print(a);
